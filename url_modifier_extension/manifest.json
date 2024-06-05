@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL Modifier",
+  "version": "1.0",
+  "description": "A Chrome extension to modify Scribd URLs",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
