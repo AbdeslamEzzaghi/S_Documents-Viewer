@@ -1,16 +1,11 @@
 # URL Modifier Chrome Extension
 
-A Chrome extension that automatically modifies Scribd document URLs to embed URLs.
-
-## Description
-
-This extension takes the current URL of a Scribd document and transforms it into an embed URL. For example, `https://www.scribd.com/document/543081123/fiches-pedagogiques` becomes `https://www.scribd.com/embeds/543081123/content`. This can be particularly useful for embedding Scribd documents into web pages or for other purposes.
+A Chrome extension that automatically previews scribd documents.
 
 ## Features
 
 - Automatically captures the current Scribd document URL from the active tab.
-- Transforms the URL to its embed form.
-- Opens the modified URL in a new tab.
+- Opens a preview of the document in a new tab.
 
 ## Installation
 
@@ -31,20 +26,9 @@ This extension takes the current URL of a Scribd document and transforms it into
 ### Using the Extension
 
 1. Navigate to a Scribd document URL in Chrome.
-2. Click on the URL Modifier extension icon in the Chrome toolbar.
-3. Click the "Modify URL" button in the popup.
-4. A new tab will open with the transformed embed URL.
-
-## Usage
-
-1. Open a Scribd document URL in your Chrome browser (e.g., `https://www.scribd.com/document/543081123/fiches-pedagogiques`).
-2. Click the extension icon located in the Chrome toolbar.
-3. Click the "Modify URL" button.
-4. The extension will automatically transform the URL and open the modified embed URL (e.g., `https://www.scribd.com/embeds/543081123/content`) in a new tab.
-
-## Screenshots
-
-![Extension Popup](screenshots/popup.png)
+2. Click on the extension icon in the Chrome toolbar.
+3. Click the "Ope," button in the popup.
+4. A new tab will open with the document preview in a new tab.
 
 ## Development
 
@@ -73,7 +57,3 @@ The JavaScript file that contains the logic to handle user interactions and URL 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions, feel free to open an issue or contact me directly at [your-email@example.com](mailto:your-email@example.com).
