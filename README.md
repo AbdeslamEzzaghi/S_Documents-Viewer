@@ -1,4 +1,4 @@
-# URL Modifier Chrome Extension
+# S_Documents-Viewer
 
 A Chrome extension that automatically previews scribd documents.
 
