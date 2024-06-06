@@ -22,7 +22,7 @@ function modifyUrl(url) {
     const hostname = urlObj.hostname.replace(/^www\.|^fr\./, '');
     const pathParts = urlObj.pathname.split('/');
     
-    if (hostname === 'scribd.com' && pathParts.length >= 3 ) {
+    if (hostname === 'scribd.com' && pathParts.length >= 3) {
       const documentId = pathParts[2];
       return `https://www.scribd.com/embeds/${documentId}/content`;
     } else {
