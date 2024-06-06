@@ -19,9 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
 function modifyUrl(url) {
   try {
     const urlObj = new URL(url);
+    const hostname = urlObj.hostname.replace(/^www\.|^fr\./, '');
     const pathParts = urlObj.pathname.split('/');
     
-    if (pathParts.length >= 3 && pathParts[1] === 'document') {
+    if (hostname === 'scribd.com' && pathParts.length >= 3 && pathParts[1] === 'document') {
       const documentId = pathParts[2];
       return `https://www.scribd.com/embeds/${documentId}/content`;
     } else {
@@ -31,4 +32,3 @@ function modifyUrl(url) {
     return null;
   }
 }
-
