@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "URL Modifier",
+  "name": "Scribd Viewer",
   "version": "1.0",
   "description": "A Chrome extension to modify Scribd URLs",
   "permissions": [
