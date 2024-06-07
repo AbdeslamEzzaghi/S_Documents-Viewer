@@ -7,7 +7,13 @@
     "activeTab"
   ],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "400": "icons/icon400.png"
+    }
+  },
+  "icons": {
+    "400": "icons/icon400.png"
   }
 }
 
